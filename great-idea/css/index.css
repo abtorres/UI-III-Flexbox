@@ -64,3 +64,108 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+.head-sec-main {
+	padding: 50px;
+}
+
+.head-sec {
+	padding-top: 70px;
+}
+
+.head-sec-inno {
+	display: inline-block;
+	padding-right: 280px;
+	align-items: center
+}
+
+.head-sec-inno h1 {
+	font-size: 70px;
+	text-align: center;
+	padding-left: 150px;
+	font-family: 'Permanent Marker', cursive;
+}
+
+.head-nav {
+	display: inline-block;
+	padding: 0 80px;
+}
+
+.head-sec-nav {
+	background: lightgreen;
+	padding-bottom: 40px;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 1;
+}
+
+.head-nav-link {
+	text-decoration: none;
+	padding: 0 30px;
+	color: black;
+	font-weight: bolder;
+	font-family: 'Permanent Marker', cursive;
+}
+
+.head-nav-link:hover {
+	color: yellow;
+	font-weight: bolder;
+}
+
+section .head-sec-nav img {
+	padding: 20px 0px 0px 150px;
+}
+
+.button-style {
+	padding-left: 300px;
+}
+
+.head-sec-main img {
+	width: 300px;
+}
+
+.about-sec {
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+}
+
+.about-sec-style div {
+	display: inline-block;
+	width: 49%;
+	padding: 30px;
+}
+
+.about-sec-style div h2 {
+	font-size: 25px
+}
+
+.about-sec img {
+	width: 100%;
+}
+
+.about-sec-2-style div {
+	display: inline-block;
+	width: 33%;
+	padding: 30px 
+}
+
+.about-sec-2-style div h2 {
+	font-size: 25px;
+}
+
+.contact-sec {
+	padding: 20px;
+}
+
+.contact-sec h2 {
+	font-size: 25px;
+}
+
+.footer-sec {
+	height: 150px;
+	text-align: center;
+}
+
+footer p {
+	padding-top: 40px;
+}
