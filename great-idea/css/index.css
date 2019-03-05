@@ -73,7 +73,7 @@ h1, h2, h3, h4, h5 {
 }
 
 .head-sec-inno {
-	display: inline-block;
+	display: flex;
 	padding-right: 280px;
 	align-items: center
 }
@@ -86,7 +86,7 @@ h1, h2, h3, h4, h5 {
 }
 
 .head-nav {
-	display: inline-block;
+	display: flex;
 	padding: 0 80px;
 }
 
@@ -97,6 +97,8 @@ h1, h2, h3, h4, h5 {
 	top: 0;
 	width: 100%;
 	z-index: 1;
+	display: flex;
+	align-content: center
 }
 
 .head-nav-link {
@@ -130,7 +132,7 @@ section .head-sec-nav img {
 }
 
 .about-sec-style div {
-	display: inline-block;
+	display: flex;
 	width: 49%;
 	padding: 30px;
 }
@@ -144,7 +146,7 @@ section .head-sec-nav img {
 }
 
 .about-sec-2-style div {
-	display: inline-block;
+	display: flex;
 	width: 33%;
 	padding: 30px 
 }
